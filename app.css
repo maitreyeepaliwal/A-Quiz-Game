@@ -1,0 +1,168 @@
+:root
+{
+    background-color: mediumslateblue;
+    font-size: 65%;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: indigo;
+}
+
+h1, h2, h3, h4{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 7rem;
+    color: oldlace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5rem;
+}
+
+h1>span{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+    position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  }
+  
+  li {
+    float: right;
+    font-size: 1.5rem;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: gray;
+    font-weight: bolder;
+    color: lawngreen;
+  }
+
+
+.container{
+    height: 90vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem; 
+    margin: 0 auto;   
+    padding: 2rem;
+}
+
+.container > *{
+    width: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 1rem 0;
+    width: 25rem;
+    text-align: center;
+    border: 0.2rem solid whitesmoke;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: whitesmoke ;
+    background-color: tomato;
+    border-radius: 3rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 black;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform:none;
+}
+
+.footer{
+    background-color: darkblue;
+    position: -webkit-sticky; 
+    position: sticky;
+    height: 3rem;
+    bottom: 0rem;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruction{
+    height: 80vh;
+    width: 100wh;
+    color: honeydew;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: mediumslateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instruction > li{
+    color: khaki;
+    float: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 4rem;
+    font-size: 2rem;
+}
